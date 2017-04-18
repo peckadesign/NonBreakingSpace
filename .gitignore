@@ -1,0 +1,6 @@
+/composer.lock
+/vendor
+/tests/**/*.actual
+/tests/**/*.expected
+output.cs
+output.tap

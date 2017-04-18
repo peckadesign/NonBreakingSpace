@@ -1,0 +1,32 @@
+{
+	"name": "pd/non-breaking-space",
+	"description": "Filtr pro nahrazení mezer za nevhodnými slovy na konci řádku za nezalomitelné mezery",
+	"type": "library",
+	"require": {
+		"php": "7.1.*",
+		"nette/utils": "2.3.*|2.4.*"
+	},
+	"require-dev": {
+		"nette/tester": "1.7.*",
+		"nette/di": "2.3.*|2.4.*",
+		"nette/bootstrap": "2.3.*|2.4.*",
+		"pd/coding-standard": "1.7.*"
+	},
+	"authors": [
+		{
+			"name": "Milan Pála",
+			"email": "milan.pala@peckadesign.cz"
+		},
+		{
+			"name": "Marek Hučík",
+			"email": "marek.hucik@peckadesign.cz"
+		}
+	],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Pd\\NonBreakingSpace\\": "src/",
+			"PdTests\\NonBreakingSpace\\": "tests/"
+		}
+	}
+}

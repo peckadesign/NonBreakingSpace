@@ -3,6 +3,7 @@ php:
     - 7.1
 
 script:
+    - vendor/bin/tester tests/ -s
     - vendor/bin/phpcs src/ --standard=vendor/pd/coding-standard/src/PeckaCodingStandard/ruleset.xml
     - vendor/bin/phpcs src/ --standard=vendor/pd/coding-standard/src/PeckaCodingStandardStrict/ruleset.xml
 

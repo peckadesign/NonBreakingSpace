@@ -11,7 +11,7 @@ class Filter
 	/**
 	 * @throws \Nette\Utils\RegexpException
 	 */
-	public function __invoke(string $string, string $chars = 'ksvzouiKSVZOUIA'): string
+	public function __invoke(string $string, string $chars = 'ksvzouiaKSVZOUIA'): string
 	{
 		return \Nette\Utils\Strings::replace(
 			$string,

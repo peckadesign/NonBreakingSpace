@@ -4,6 +4,8 @@
 
 Filtr, který nahradí mezery za nevhodnými slovy na konci řádku za nezalomitelné mezery.
 
+Původní idea vychází z [Texy!](https://github.com/dg/texy).
+
 
 ## Instalace
 

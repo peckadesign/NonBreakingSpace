@@ -30,10 +30,10 @@ class OneSymbolTest extends \Tester\TestCase
 		$tags = [
 			'<a>',
 			'<a href="">',
-			'<b>',
-			'<b class="">',
-			'<i>',
-			'<i class="">',
+			//'<b>',
+			//'<b class="">',
+			//'<i>',
+			//'<i class="">',
 		];
 		foreach ($tags as $tag) {
 			$translated = $filter->__invoke($tag);

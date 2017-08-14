@@ -12,7 +12,7 @@ class OneSymbolTest extends \Tester\TestCase
 	{
 		$filter = new \Pd\NonBreakingSpace\Filter();
 
-		foreach (str_split('ksvzouiiaKSVZOUIA') as $oneSymbol) {
+		foreach (str_split('ksvzouiaKSVZOUIA') as $oneSymbol) {
 			$output = $filter->__invoke('slovo ' . $oneSymbol . ' slovo');
 
 			\Tester\Assert::equal("slovo " . $oneSymbol . "\xc2\xa0slovo", $output);

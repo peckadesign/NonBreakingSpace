@@ -3,11 +3,11 @@
 	"description": "Filtr pro nahrazení mezer za nevhodnými slovy na konci řádku za nezalomitelné mezery",
 	"type": "library",
 	"require": {
-		"php": "7.1.*",
+		"php": "7.*",
 		"nette/utils": "2.*"
 	},
 	"require-dev": {
-		"nette/tester": "1.7.*",
+		"nette/tester": "2.1.*",
 		"nette/di": "2.3.*|2.4.*",
 		"nette/bootstrap": "2.3.*|2.4.*",
 		"pd/coding-standard": "1.7.*",

@@ -4,7 +4,7 @@
 	"type": "library",
 	"require": {
 		"php": "7.1.* || 7.2.* || 7.3.* || 7.4.*",
-		"nette/utils": "3.0.*"
+		"nette/utils": "^3.0.0"
 	},
 	"require-dev": {
 		"nette/tester": "2.3.*",

@@ -1,7 +1,5 @@
 # Non Breaking Space
 
-[![Build Status](https://travis-ci.org/peckadesign/NonBreakingSpace.svg?branch=master)](https://travis-ci.org/peckadesign/NonBreakingSpace)
-
 Filtr, který nahradí mezery za nevhodnými slovy na konci řádku za nezalomitelné mezery.
 
 Původní idea vychází z [Texy!](https://github.com/dg/texy).

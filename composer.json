@@ -3,14 +3,14 @@
 	"description": "Filtr pro nahrazení mezer za nevhodnými slovy na konci řádku za nezalomitelné mezery",
 	"type": "library",
 	"require": {
-		"php": "7.1.* || 7.2.* || 7.3.* || 7.4.*",
+		"php": "7.4.* || 8.0.*",
 		"nette/utils": "^3.0.0"
 	},
 	"require-dev": {
 		"nette/tester": "2.3.*",
 		"nette/di": "3.0.*",
 		"nette/bootstrap": "3.0.*",
-		"pd/coding-standard": "1.7.*",
+		"pd/coding-standard": "1.27.*",
 		"paragonie/constant_time_encoding": "^2.0"
 	},
 	"authors": [

@@ -2,5 +2,4 @@
 /vendor
 /tests/**/*.actual
 /tests/**/*.expected
-output.cs
-output.tap
+/tests/DI/cache

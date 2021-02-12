@@ -13,7 +13,7 @@ class Extension extends \Nette\DI\CompilerExtension
 
 		$builder
 			->addDefinition($this->prefix('oneSymbolFilter'))
-			->setClass(\Pd\NonBreakingSpace\Filter::class)
+			->setFactory(\Pd\NonBreakingSpace\Filter::class)
 		;
 
 	}

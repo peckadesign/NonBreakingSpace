@@ -5,7 +5,7 @@ namespace Pd\NonBreakingSpace;
 class Filter
 {
 
-	const CHAR = 'A-Za-z\x{C0}-\x{2FF}\x{370}-\x{1EFF}';
+	private const CHAR = 'A-Za-z\x{C0}-\x{2FF}\x{370}-\x{1EFF}';
 
 
 	/**

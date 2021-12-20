@@ -3,7 +3,7 @@
 	"description": "Filtr pro nahrazení mezer za nevhodnými slovy na konci řádku za nezalomitelné mezery",
 	"type": "library",
 	"require": {
-		"php": "7.4.* || 8.0.*",
+		"php": "7.4.* || 8.*",
 		"nette/utils": "^3.0.0"
 	},
 	"require-dev": {
